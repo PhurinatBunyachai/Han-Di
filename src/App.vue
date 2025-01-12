@@ -13,6 +13,7 @@ import { Button } from '@/components/ui/button'
     </a>
   </div>
   <HomePage msg="Vite + Vue" />
+  <Button>Click me</Button>
 </template>
 
 <style scoped>
