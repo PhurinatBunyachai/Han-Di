@@ -1,19 +1,16 @@
 <script setup lang="ts">
-import HomePage from "@/components/HomePage.vue";
-import { Button } from "@/components/ui/button";
+import Footer from "@/components/layouts/Footer.vue";
+import Header from "@/components/layouts/Header.vue";
 </script>
 
 <template>
-  <div>
-    <a href="https://vite.dev" target="_blank">
-      <img src="/vite.svg" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://vuejs.org/" target="_blank">
-      <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
-    </a>
+  <Header />
+  <div class="h-screen container mx-auto max-w-[1280px]">
+    <router-view v-slot="{ Component }">
+      <transition name="fade">
+        <component :is="Component" />
+      </transition>
+    </router-view>
   </div>
-  <HomePage msg="Vite + Vue" />
-  <Button>Click me</Button>
+  <Footer />
 </template>
-
-<style scoped></style>
