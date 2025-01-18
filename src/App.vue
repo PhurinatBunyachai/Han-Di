@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import HomePage from '@/components/HomePage.vue'
-import { Button } from '@/components/ui/button'
+import HomePage from "@/components/HomePage.vue";
+import { Button } from "@/components/ui/button";
 </script>
 
 <template>
@@ -16,5 +16,4 @@ import { Button } from '@/components/ui/button'
   <Button>Click me</Button>
 </template>
 
-<style scoped>
-</style>
+<style scoped></style>
