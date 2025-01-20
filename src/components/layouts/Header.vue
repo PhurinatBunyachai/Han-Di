@@ -3,5 +3,5 @@ import { inject } from "vue";
 const isDesktop = inject("isDesktop");
 </script>
 <template>
-  <div class="h-[50px] bg-yellow-500">{{ isDesktop }}</div>
+  <div>asdas</div>
 </template>

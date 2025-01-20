@@ -5,7 +5,9 @@ import Header from "@/components/layouts/Header.vue";
 
 <template>
   <Header />
-  <div class="h-screen container mx-auto max-w-[1280px]">
+  <div
+    class="h-screen container mx-auto max-w-[1280px] flex justify-center items-center"
+  >
     <router-view v-slot="{ Component }">
       <transition name="fade">
         <component :is="Component" />
