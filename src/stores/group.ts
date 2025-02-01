@@ -1,13 +1,31 @@
-import { computed, ref } from "vue";
+import { ref } from "vue";
 import { defineStore } from "pinia";
 
-export const useGroupStore = defineStore("group", () => {
-  const count = ref(0);
-  const name = ref("Eduardo");
-  const doubleCount = computed(() => count.value * 2);
-  function increment() {
-    count.value++;
-  }
+export const useGroupStore = defineStore(
+  "group",
+  () => {
+    const groups = ref<Group[]>([]);
 
-  return { count, name, doubleCount, increment };
-});
+    function onAddGroup(): void {
+      groups.value = [
+        ...groups.value,
+        {
+          id: 1,
+          name: "test",
+          total: 100,
+        },
+      ];
+    }
+
+    return { groups, onAddGroup };
+  },
+  {
+    persist: true,
+  },
+);
+
+interface Group {
+  id: number;
+  name: string;
+  total: number | 0;
+}
