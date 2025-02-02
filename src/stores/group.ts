@@ -1,5 +1,6 @@
 import { ref } from "vue";
 import { defineStore } from "pinia";
+import type { Group, Members } from "@/types";
 
 export const useGroupStore = defineStore(
   "group",
@@ -13,6 +14,7 @@ export const useGroupStore = defineStore(
           id: 1,
           name: "test",
           total: 100,
+          members: []<Members[]>,
         },
       ];
     }
@@ -23,9 +25,3 @@ export const useGroupStore = defineStore(
     persist: true,
   },
 );
-
-interface Group {
-  id: number;
-  name: string;
-  total: number | 0;
-}
