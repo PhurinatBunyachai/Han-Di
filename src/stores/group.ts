@@ -7,16 +7,8 @@ export const useGroupStore = defineStore(
   () => {
     const groups = ref<Group[]>([]);
 
-    function onAddGroup(): void {
-      groups.value = [
-        ...groups.value,
-        {
-          id: 1,
-          name: "test",
-          total: 100,
-          members: []<Members[]>,
-        },
-      ];
+    function onAddGroup({ newGroup }): void {
+      groups.value = [...groups.value, newGroup];
     }
 
     return { groups, onAddGroup };
