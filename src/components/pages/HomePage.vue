@@ -4,6 +4,7 @@ import { uniqueId } from "lodash";
 import { ref } from "vue";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
+import { ChevronRight } from "lucide-vue-next";
 import {
   Drawer,
   DrawerContent,
@@ -16,9 +17,9 @@ import { useGroupStore } from "@/stores/group";
 import { storeToRefs } from "pinia";
 const groupStore = useGroupStore();
 const { groups } = storeToRefs(groupStore);
-const isOpen: boolean = ref(false);
-const groupName: string = ref("");
-const memberName: string = ref("");
+const isOpen = ref<boolean>(false);
+const groupName = ref<string>("");
+const memberName = ref<string>("");
 const members = ref<Members[]>([]);
 const onAddMember = () => {
   members.value = [
@@ -38,15 +39,26 @@ const onAddGroup = () => {
   };
   groupStore.onAddGroup({ newGroup });
   isOpen.value = false;
+  memberName.value = "";
+  groupName.value = "";
 };
 </script>
 
 <template>
   <div class="h-[500px] w-full shadow-lg rounded-md">
-    <Button @click="isOpen = !isOpen">+</Button>
+    <div class="absolute bottom-[20px] right-[10px]">
+      <Button @click="isOpen = !isOpen">Create Group</Button>
+    </div>
+    <div class="text-center text-xl">Your'e Groups</div>
+    <hr class="mt-2" />
     <div class="flex flex-col">
-      <div class="flex flex-col w-full" v-for="group in groups">
-        {{ group.name }}
+      <div class="flex px-2 flex-col w-full" v-for="(group,index) in groups" :key="`group-${index}`">
+        <div class="p-2 my-2 shadow-lg rounded-md">
+          <div class="flex items-center justify-between">
+            <span class="truncate"> {{ group.name }}</span>
+            <ChevronRight class="cursor-pointer mr-2" />
+          </div>
+        </div>
       </div>
     </div>
     <Drawer :open="isOpen">
@@ -63,7 +75,7 @@ const onAddGroup = () => {
               Add
             </Button>
           </div>
-          <ul class="block" v-for="member in members">
+          <ul class="block" v-for="(member,index) in members" :key="`member-${index}`">
             <li>
               {{ member.name }}
             </li>
