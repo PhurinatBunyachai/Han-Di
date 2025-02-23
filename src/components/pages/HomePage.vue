@@ -45,8 +45,8 @@ const onAddGroup = () => {
 </script>
 
 <template>
-  <div class="h-[500px] w-full shadow-lg rounded-md">
-    <div class="absolute bottom-[20px] right-[10px]">
+  <div class="h-[500px] w-full shadow-lg rounded-md relative">
+    <div class="absolute bottom-4 right-4">
       <Button @click="isOpen = !isOpen">Create Group</Button>
     </div>
     <div class="text-center text-xl">Your'e Groups</div>
@@ -61,6 +61,7 @@ const onAddGroup = () => {
         </div>
       </div>
     </div>
+    
     <Drawer :open="isOpen">
       <DrawerContent>
         <DrawerHeader>
