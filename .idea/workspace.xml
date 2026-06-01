@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0d8fccb4-f72f-4282-b769-f7d534c85635" name="Changes" comment="add feature add group and menbers">
+      <change beforePath="$PROJECT_DIR$/src/components/pages/HomePage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/HomePage.vue" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;PhurinatBunyachai&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/PhurinatBunyachai/Han-Di.git&quot;,
+    &quot;accountId&quot;: &quot;7c8f4907-21dc-446e-8a6d-cce9cac038d2&quot;
+  }
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2qtHKEqzaoDtLrl84dT2fYhSaaP" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/Users/phurinatbunyachai/Desktop/Projects/Phurinat/Han-Di/node_modules/prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.tailwindcss&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/phurinatbunyachai/Desktop/Projects/Phurinat/Han-Di/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/pages" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-WS-243.23654.120" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0d8fccb4-f72f-4282-b769-f7d534c85635" name="Changes" comment="" />
+      <created>1735474885791</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1735474885791</updated>
+      <workItem from="1735474887292" duration="3546000" />
+      <workItem from="1736671321465" duration="10951000" />
+      <workItem from="1737184708776" duration="3517000" />
+      <workItem from="1737189171663" duration="3517000" />
+      <workItem from="1737380345270" duration="3690000" />
+      <workItem from="1738416291455" duration="9400000" />
+      <workItem from="1739194032579" duration="5261000" />
+    </task>
+    <task id="LOCAL-00001" summary="init project">
+      <option name="closed" value="true" />
+      <created>1735475394264</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1735475394264</updated>
+    </task>
+    <task id="LOCAL-00002" summary="test">
+      <option name="closed" value="true" />
+      <created>1735476083185</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1735476083185</updated>
+    </task>
+    <task id="LOCAL-00003" summary="set up all package">
+      <option name="closed" value="true" />
+      <created>1736685355788</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1736685355789</updated>
+    </task>
+    <task id="LOCAL-00004" summary="set up all package">
+      <option name="closed" value="true" />
+      <created>1736685362039</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1736685362039</updated>
+    </task>
+    <task id="LOCAL-00005" summary="set up ts">
+      <option name="closed" value="true" />
+      <created>1736685701014</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1736685701014</updated>
+    </task>
+    <task id="LOCAL-00006" summary="set up pettier">
+      <option name="closed" value="true" />
+      <created>1737184891062</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1737184891062</updated>
+    </task>
+    <task id="LOCAL-00007" summary="change title">
+      <option name="closed" value="true" />
+      <created>1737185132607</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1737185132607</updated>
+    </task>
+    <task id="LOCAL-00008" summary="set up layout">
+      <option name="closed" value="true" />
+      <created>1737189315881</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1737189315881</updated>
+    </task>
+    <task id="LOCAL-00009" summary="edit: add provide var">
+      <option name="closed" value="true" />
+      <created>1737191758922</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1737191758922</updated>
+    </task>
+    <task id="LOCAL-00010" summary="edit: add pinia">
+      <option name="closed" value="true" />
+      <created>1737384007086</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1737384007086</updated>
+    </task>
+    <task id="LOCAL-00011" summary="edit: set up drawer">
+      <option name="closed" value="true" />
+      <created>1738420039193</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1738420039193</updated>
+    </task>
+    <task id="LOCAL-00012" summary="edit: set up type and drawer">
+      <option name="closed" value="true" />
+      <created>1738506189501</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1738506189501</updated>
+    </task>
+    <task id="LOCAL-00013" summary="add feature add group and menbers">
+      <option name="closed" value="true" />
+      <created>1739197245366</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1739197245366</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init projject" />
+    <MESSAGE value="init project" />
+    <MESSAGE value="test" />
+    <MESSAGE value="set up all package" />
+    <MESSAGE value="set up ts" />
+    <MESSAGE value="set up pettier" />
+    <MESSAGE value="change title" />
+    <MESSAGE value="set up layout" />
+    <MESSAGE value="edit: add provide var" />
+    <MESSAGE value="edit: add pinia" />
+    <MESSAGE value="edit: set up drawer" />
+    <MESSAGE value="edit: set up type and drawer" />
+    <MESSAGE value="add feature add group and menbers" />
+    <option name="LAST_COMMIT_MESSAGE" value="add feature add group and menbers" />
+  </component>
+</project>
